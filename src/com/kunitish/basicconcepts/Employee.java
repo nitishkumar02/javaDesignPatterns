@@ -12,7 +12,7 @@ public class Employee
 	 */
 	private String company="IBM";
 	/*
-	 * prevent creation of object without any value, by decalring parm constructor
+	 * prevent creation of object without any value, by declaring ,parm constructor
 	 */
 
 	public Employee(String empid,String empName ,Email email) 
@@ -26,6 +26,7 @@ public class Employee
 	{
 		email.senEmail();
 	}
+	
 /*
  * Ever changing value: use getter and setter if it changes frequently
  */
