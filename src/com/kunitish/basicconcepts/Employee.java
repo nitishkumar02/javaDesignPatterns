@@ -26,4 +26,22 @@ public class Employee
 	{
 		email.senEmail();
 	}
+/*
+ * Ever changing value: use getter and setter if it changes frequently
+ */
+	public String getGrade() {
+		return grade;
+	}
+
+	public void setGrade(String grade) {
+		this.grade = grade;
+	}
+
+	public int getSalary() {
+		return salary;
+	}
+
+	public void setSalary(int salary) {
+		this.salary = salary;
+	}
 }
