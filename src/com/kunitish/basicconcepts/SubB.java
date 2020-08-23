@@ -1,13 +1,16 @@
 package com.kunitish.basicconcepts;
 
-public class SubB extends SupA
+public class SubB implements SupA
+
 {
-	public void methodB()
-	   {
-		   System.out.println("B - MB");
-	   }
-	 public void methodA()
+	public void methodA()
 	   {
 		   System.out.println("B - MA");
 	   }
+	  public void methodB()
+	   {
+		   System.out.println("B - MB");
+	   }
+	  
+	  
 }

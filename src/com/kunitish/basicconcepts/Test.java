@@ -5,8 +5,8 @@ public class Test {
 	public static void main(String[] args)
 	{
 		   System.out.println("---A class Object-----");																																														 
-		   SupA aobj = new SupA();
-		   aobj.methodA();
+		   // SupA aobj = new SupA();
+		  // aobj.methodA();
 		   
 		   System.out.println("---B class Object-----");
 		   
