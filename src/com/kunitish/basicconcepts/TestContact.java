@@ -22,6 +22,13 @@ public class TestContact
 		contact2.name="Sara";
 		((Work)contact2).email ="666@";
 		
+		/*
+		 * toString is called when we print the object
+		 */
+		
+		System.out.println(contact1);
+		System.out.println(contact2);
+		
 	}
 	
 
