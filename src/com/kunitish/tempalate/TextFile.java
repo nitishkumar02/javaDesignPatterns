@@ -1,6 +1,13 @@
 package com.kunitish.tempalate;
 
 public class TextFile {
+	public void readWriteSave()
+	{
+		readData();
+		writeData();
+		saveData();
+		
+	}
 
 	public void readData()
 	{

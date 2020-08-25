@@ -1,7 +1,15 @@
 package com.kunitish.tempalate;
 
 public class ExcelFile 
+
 {
+	public void readWriteSave()
+	{
+		readData();
+		writeData();
+		saveData();
+		
+	}
 	public void readData()
 	{
 		System.out.println("Read data from Excel File");
