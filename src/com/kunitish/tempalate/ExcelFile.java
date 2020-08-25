@@ -1,15 +1,9 @@
 package com.kunitish.tempalate;
 
-public class ExcelFile 
+public class ExcelFile extends DataProcessor
 
 {
-	public void readWriteSave()
-	{
-		readData();
-		writeData();
-		saveData();
-		
-	}
+	
 	public void readData()
 	{
 		System.out.println("Read data from Excel File");
@@ -18,9 +12,6 @@ public class ExcelFile
 	{
 		System.out.println("write Data to Excel File");
 	}
-	public void saveData() 
-	{
-		System.out.println("Save Data to Excel file");
-	}
+	
 	
 }

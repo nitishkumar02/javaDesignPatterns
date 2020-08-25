@@ -1,13 +1,8 @@
 package com.kunitish.tempalate;
 
-public class TextFile {
-	public void readWriteSave()
-	{
-		readData();
-		writeData();
-		saveData();
-		
-	}
+public class TextFile extends DataProcessor
+{
+
 
 	public void readData()
 	{
@@ -17,7 +12,5 @@ public class TextFile {
 	{
 		System.out.println("write Data to text File");
 	}
-	public void saveData() {
-		System.out.println("Save Data to Text file");
-	}
+	
 }
